@@ -5,7 +5,7 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Inventory
     books={Array []}
-  />,
+/>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -20,11 +20,41 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": Array [],
-      "className": "col-4 inventory",
+      "children": Array [
+        <h2>
+          Bookstore inventory:
+</h2>,
+        <h4>
+          No books on stock, sorry
+</h4>,
+      ],
+      "className": "inventory col-6",
     },
     "ref": null,
-    "rendered": Array [],
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Bookstore inventory:",
+        },
+        "ref": null,
+        "rendered": "Bookstore inventory:",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "No books on stock, sorry",
+        },
+        "ref": null,
+        "rendered": "No books on stock, sorry",
+        "type": "h4",
+      },
+    ],
     "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -33,11 +63,41 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": Array [],
-        "className": "col-4 inventory",
+        "children": Array [
+          <h2>
+            Bookstore inventory:
+</h2>,
+          <h4>
+            No books on stock, sorry
+</h4>,
+        ],
+        "className": "inventory col-6",
       },
       "ref": null,
-      "rendered": Array [],
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Bookstore inventory:",
+          },
+          "ref": null,
+          "rendered": "Bookstore inventory:",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "No books on stock, sorry",
+          },
+          "ref": null,
+          "rendered": "No books on stock, sorry",
+          "type": "h4",
+        },
+      ],
       "type": "div",
     },
   ],

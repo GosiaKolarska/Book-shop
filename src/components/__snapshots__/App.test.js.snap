@@ -22,20 +22,16 @@ ShallowWrapper {
         <Header />,
         <div
           className="row"
-        >
+>
           <Order
-            order={Array []}
-            removeFromOrder={[Function]}
+                    order={Array []}
+                    removeFromOrder={[Function]}
           />
           <Inventory
-            addToOrder={[Function]}
-            books={Array []}
+                    addToOrder={[Function]}
+                    books={undefined}
           />
-          <AdminPanel
-            addBook={[Function]}
-            books={Array []}
-          />
-        </div>,
+</div>,
       ],
       "className": "app container-fluid",
     },
@@ -59,15 +55,11 @@ ShallowWrapper {
             <Order
               order={Array []}
               removeFromOrder={[Function]}
-            />,
+/>,
             <Inventory
               addToOrder={[Function]}
-              books={Array []}
-            />,
-            <AdminPanel
-              addBook={[Function]}
-              books={Array []}
-            />,
+              books={undefined}
+/>,
           ],
           "className": "row",
         },
@@ -91,19 +83,7 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "addToOrder": [Function],
-              "books": Array [],
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "addBook": [Function],
-              "books": Array [],
+              "books": undefined,
             },
             "ref": null,
             "rendered": null,
@@ -125,20 +105,16 @@ ShallowWrapper {
           <Header />,
           <div
             className="row"
-          >
+>
             <Order
-              order={Array []}
-              removeFromOrder={[Function]}
+                        order={Array []}
+                        removeFromOrder={[Function]}
             />
             <Inventory
-              addToOrder={[Function]}
-              books={Array []}
+                        addToOrder={[Function]}
+                        books={undefined}
             />
-            <AdminPanel
-              addBook={[Function]}
-              books={Array []}
-            />
-          </div>,
+</div>,
         ],
         "className": "app container-fluid",
       },
@@ -162,15 +138,11 @@ ShallowWrapper {
               <Order
                 order={Array []}
                 removeFromOrder={[Function]}
-              />,
+/>,
               <Inventory
                 addToOrder={[Function]}
-                books={Array []}
-              />,
-              <AdminPanel
-                addBook={[Function]}
-                books={Array []}
-              />,
+                books={undefined}
+/>,
             ],
             "className": "row",
           },
@@ -194,19 +166,7 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "addToOrder": [Function],
-                "books": Array [],
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "addBook": [Function],
-                "books": Array [],
+                "books": undefined,
               },
               "ref": null,
               "rendered": null,

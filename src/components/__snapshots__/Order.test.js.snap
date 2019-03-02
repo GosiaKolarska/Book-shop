@@ -5,7 +5,7 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Order
     order={Array []}
-  />,
+/>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -20,11 +20,28 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": Array [],
-      "className": "col-4 order",
+      "children": Array [
+        <h2>
+          Your order:
+</h2>,
+        Array [],
+      ],
+      "className": "order col-6",
     },
     "ref": null,
-    "rendered": Array [],
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Your order:",
+        },
+        "ref": null,
+        "rendered": "Your order:",
+        "type": "h2",
+      },
+    ],
     "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -33,11 +50,28 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": Array [],
-        "className": "col-4 order",
+        "children": Array [
+          <h2>
+            Your order:
+</h2>,
+          Array [],
+        ],
+        "className": "order col-6",
       },
       "ref": null,
-      "rendered": Array [],
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Your order:",
+          },
+          "ref": null,
+          "rendered": "Your order:",
+          "type": "h2",
+        },
+      ],
       "type": "div",
     },
   ],

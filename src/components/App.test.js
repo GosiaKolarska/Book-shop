@@ -9,13 +9,19 @@ configure({ adapter: new Adapter() });
 
 describe('App tests', () => {
 
-  it('App renders without a problem', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(<App />, div);
-    ReactDOM.unmountComponentAtNode(div);
-  })
+  // it('App renders without a problem', () => {
+
+  //symulujemy element DOM
+  //   const div = document.createElement('div');
+  //   ReactDOM.render(<App />, div);
+
+  //by ograniczycv zucycie pamieci przez testy, musimy odpiac komponent app od tego utoworzonego diva, element zostanie zniszczony 
+  //   ReactDOM.unmountComponentAtNode(div);
+  // })
 
   it('Snapshot matches', () => {
+
+    //przekazujemy komponent ktory chcemy wyrenderowac (App)
     const wrapper = shallow(<App />);
     expect(wrapper).toMatchSnapshot();
   })

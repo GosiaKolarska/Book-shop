@@ -17,6 +17,7 @@ describe('AdminPanel tests', () => {
 
   it('Snapshot matches', () => {
     const wrapper = shallow(<AdminPanel />);
+    //naz wraper ma byc taki sam jak snapshot
     expect(wrapper).toMatchSnapshot();
   })
 

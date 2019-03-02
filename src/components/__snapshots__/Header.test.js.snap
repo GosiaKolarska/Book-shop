@@ -18,9 +18,23 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <h1>
-        Black Books
-      </h1>,
+      "children": Array [
+        <center>
+          <h1>
+                    Black Books
+          </h1>
+</center>,
+        <Link
+          replace={false}
+          to="/admin"
+>
+          <button
+                    className="btn btn-info goToAdmin"
+          >
+                    Administrator Panel
+          </button>
+</Link>,
+      ],
       "className": "row header",
       "onClick": [Function],
       "style": Object {
@@ -29,17 +43,59 @@ ShallowWrapper {
       },
     },
     "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": "Black Books",
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h1>
+            Black Books
+</h1>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Black Books",
+          },
+          "ref": null,
+          "rendered": "Black Books",
+          "type": "h1",
+        },
+        "type": "center",
       },
-      "ref": null,
-      "rendered": "Black Books",
-      "type": "h1",
-    },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <button
+            className="btn btn-info goToAdmin"
+>
+            Administrator Panel
+</button>,
+          "replace": false,
+          "to": "/admin",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Administrator Panel",
+            "className": "btn btn-info goToAdmin",
+          },
+          "ref": null,
+          "rendered": "Administrator Panel",
+          "type": "button",
+        },
+        "type": [Function],
+      },
+    ],
     "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -48,9 +104,23 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <h1>
-          Black Books
-        </h1>,
+        "children": Array [
+          <center>
+            <h1>
+                        Black Books
+            </h1>
+</center>,
+          <Link
+            replace={false}
+            to="/admin"
+>
+            <button
+                        className="btn btn-info goToAdmin"
+            >
+                        Administrator Panel
+            </button>
+</Link>,
+        ],
         "className": "row header",
         "onClick": [Function],
         "style": Object {
@@ -59,17 +129,59 @@ ShallowWrapper {
         },
       },
       "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Black Books",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h1>
+              Black Books
+</h1>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Black Books",
+            },
+            "ref": null,
+            "rendered": "Black Books",
+            "type": "h1",
+          },
+          "type": "center",
         },
-        "ref": null,
-        "rendered": "Black Books",
-        "type": "h1",
-      },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <button
+              className="btn btn-info goToAdmin"
+>
+              Administrator Panel
+</button>,
+            "replace": false,
+            "to": "/admin",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Administrator Panel",
+              "className": "btn btn-info goToAdmin",
+            },
+            "ref": null,
+            "rendered": "Administrator Panel",
+            "type": "button",
+          },
+          "type": [Function],
+        },
+      ],
       "type": "div",
     },
   ],

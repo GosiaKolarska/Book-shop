@@ -2,12 +2,12 @@ import Rebase from "re-base";
 import firebase from "firebase";
 
 const firebaseApp = firebase.initializeApp({
-  apiKey: "AIzaSyDanieK3eBbuKF6ey3rAP_kEvQ5v9ZXmQ4",
-  authDomain: "clockwork-bookstore-b4b95.firebaseapp.com",
-  databaseURL: "https://clockwork-bookstore-b4b95.firebaseio.com",
-  projectId: "clockwork-bookstore-b4b95",
-  storageBucket: "clockwork-bookstore-b4b95.appspot.com",
-  messagingSenderId: "301788162641"
+  apiKey: "AIzaSyAl-E3vOc7Ujx6uxv0Jix_c4R2xwIuqciI",
+  authDomain: "bookshop-648c3.firebaseapp.com",
+  databaseURL: "https://bookshop-648c3.firebaseio.com",
+  projectId: "bookshop-648c3",
+  storageBucket: "bookshop-648c3.appspot.com",
+  messagingSenderId: "643845780847"
 });
 
 const fbase = Rebase.createClass(firebaseApp.database());

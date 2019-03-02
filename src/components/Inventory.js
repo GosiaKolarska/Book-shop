@@ -6,9 +6,7 @@ class Inventory extends React.Component {
 
   constructor() {
     super();
-    this.state = {
-      books: []
-    }
+    this.state = {}
   }
 
   componentDidMount() {
@@ -23,10 +21,13 @@ class Inventory extends React.Component {
   }
 
   render() {
-    const bookListing = this.state.books.map(book => {
-      return <BookView book={book} addToOrder={this.props.addToOrder} />
-    });
+    let bookListing = <h4>No books on stock, sorry</h4>
 
+    if (Array.isArray(this.state.books)) {
+      bookListing = this.state.books.map(book => {
+        return <BookView key={book.name} book={book} addToOrder={this.props.addToOrder} />
+      });
+    }
     return (
       <div className="inventory col-6">
         <h2>Bookstore inventory:</h2>
